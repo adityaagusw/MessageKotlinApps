@@ -4,9 +4,7 @@ import com.adityaagusw.messagekotlinapps.Model.DefaultResponse
 import com.adityaagusw.messagekotlinapps.Model.LoginResponse
 import com.adityaagusw.messagekotlinapps.Model.MessageResponse
 import retrofit2.Call
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
-import retrofit2.http.POST
+import retrofit2.http.*
 
 interface ApiInterface {
 
@@ -29,5 +27,12 @@ interface ApiInterface {
     fun kirimPesanUser(@Field("user_id") user_id : Int,
                        @Field("pesan") pesan : String
                        ) : Call<MessageResponse>
+
+    @FormUrlEncoded
+    @POST("updateuser/{id}")
+    fun updateUser(@Path("id") id : Int,
+                   @Field("nama") nama: String,
+                   @Field("email") email: String
+                    ) : Call<LoginResponse>
 
 }

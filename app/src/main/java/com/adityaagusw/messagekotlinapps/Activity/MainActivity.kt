@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         btnLogout.setOnClickListener(this)
         btnKirimPesan.setOnClickListener(this)
+        btnProfile.setOnClickListener(this)
 
     }
 
@@ -38,6 +39,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnKirimPesan->{
                 userKirimPesan()
+            }
+            R.id.btnProfile->{
+                startActivity(Intent(applicationContext, ProfileActivity::class.java))
             }
         }
     }
