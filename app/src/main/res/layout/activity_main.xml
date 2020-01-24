@@ -10,6 +10,20 @@
     android:gravity="center"
     android:padding="10dp">
 
+    <TextView
+        android:id="@+id/txtNamaMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/txtEmailMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="17sp"/>
+
     <EditText
         android:id="@+id/edtPesan"
         android:layout_width="match_parent"

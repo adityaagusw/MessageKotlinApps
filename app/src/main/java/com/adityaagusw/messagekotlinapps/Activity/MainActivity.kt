@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        txtNamaMain.text = SharedPrefManager.getInstance(this).user.nama
+        txtEmailMain.text = SharedPrefManager.getInstance(this).user.email
+
         btnLogout.setOnClickListener(this)
         btnKirimPesan.setOnClickListener(this)
 
