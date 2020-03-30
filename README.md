@@ -1,5 +1,5 @@
 # MyMessageApp Retrofit
-This project uses the method of creating and getting a user id from hashmap
+This project uses the method of creating and getting a user id from SharedPreferences
 
 ### Android Version :
 - Support AndroidX
