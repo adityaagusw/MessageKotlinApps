@@ -1,5 +1,5 @@
 # MyMessageApp Retrofit
-This project uses the method of creating and getting a user id from SharedPreferences
+This project uses the method of creating and getting a user id from SharedPreferences, can change / update the value of Sharedpreferences
 
 ### Android Version :
 - Support AndroidX
