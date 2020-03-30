@@ -1,5 +1,5 @@
 # MyMessageApp Retrofit
-this project uses the method of creating and getting a user id from hashmap
+This project uses the method of creating and getting a user id from hashmap
 
 ### Android Version :
 - Support AndroidX
